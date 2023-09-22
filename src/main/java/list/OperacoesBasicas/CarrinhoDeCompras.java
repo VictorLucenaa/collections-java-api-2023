@@ -1,13 +1,10 @@
 package main.java.list.OperacoesBasicas;
 
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class CarrinhoDeCompras {
-
+    //atributos
     private List<Item> itensList;
 
     public CarrinhoDeCompras(){
@@ -20,30 +17,42 @@ public class CarrinhoDeCompras {
 
     public void removerItem(String nome){
         List<Item>itensParaRemover = new ArrayList<>();
-        for(Item item : itensList){
-            if(item.getNome().equalsIgnoreCase(nome)){
-                itensParaRemover.add(item);
+        if (!itensList.isEmpty()) {
+            for (Item item : itensList) {
+                if (item.getNome().equalsIgnoreCase(nome)) {
+                    itensParaRemover.add(item);
+                }
             }
+            itensList.removeAll(itensParaRemover);
+        }else {
+            System.out.println("A lista está vazia!");
         }
-        itensList.removeAll(itensParaRemover);
     }
-    public double calcularValorTotal(){
-        Double valorTotalCompra = 0.0;
-        for(Item preco : itensList){
-            if(preco.getQuantidade() > 1) valorTotalCompra += (preco.getPreco() * preco.getQuantidade());
-            else{
-                valorTotalCompra += preco.getPreco();
+    public double calcularValorTotal() {
+        Double valorTotal = 0.0;
+        if (!itensList.isEmpty()) {
+            for (Item item : itensList) {
+                double valorItem = item.getPreco() * item.getQuantidade();
+                valorTotal += valorItem;
             }
+            return valorTotal;
+        }else {
+            throw new RuntimeException("A lista está vazia!");
         }
-
-        DecimalFormat df = new DecimalFormat("#.00", new DecimalFormatSymbols(Locale.US));
-        String numeroFormatado = df.format(valorTotalCompra);
-
-         return Double.parseDouble(numeroFormatado);
     }
     public void exibirItens(){
-        for(Item str : itensList)
-            System.out.println("Item de nome: " + str.getNome() + " R$: " + str.getPreco() + " Quantidade: " + str.getQuantidade());
+       if (!itensList.isEmpty()){
+           System.out.println(this.itensList);
+       }else{
+           System.out.println("A lista está vazia!");
+       }
+    }
+
+    @Override
+    public String toString(){
+        return "CarrinhoDecompras{" +
+                "itens=" + itensList +
+                '}';
     }
 
     public void adicionarQuantidade(String nome, int quantidade){
@@ -80,23 +89,26 @@ public class CarrinhoDeCompras {
 
 
     public static void main(String[] args) {
+        // Criando uma instância do carrinho de compras
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
-        DecimalFormat df = new DecimalFormat("#.00");
 
-        carrinhoDeCompras.adicionarItem("O senhor dos anéis", 47.50, 2);
-        carrinhoDeCompras.adicionarItem("Cadeira Gamer Vikings", 998.0, 1);
-        carrinhoDeCompras.adicionarItem("Cadeira Gamer Vikings", 998.0, 1);
-        carrinhoDeCompras.adicionarItem("Monitor full HD 32'", 1200.0, 1);
-        carrinhoDeCompras.adicionarItem("Nexgard Spectra", 120.32, 2);
+        // Adicionando itens ao carrinho
+        carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
+        carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
+        carrinhoDeCompras.adicionarItem("Caderno", 35d, 1);
+        carrinhoDeCompras.adicionarItem("Borracha", 2d, 2);
+
+        // Exibindo os itens no carrinho
         carrinhoDeCompras.exibirItens();
-        System.out.println("O valor Total das suas compras é de R$: " + carrinhoDeCompras.calcularValorTotal());
-       // carrinhoDeCompras.removerItem("Cadeira Gamer Vikings");
-        System.out.println("após adicionar itens");
-       carrinhoDeCompras.adicionarQuantidade("O senhor dos anéis", 1);
+
+        // Removendo um item do carrinho
+        carrinhoDeCompras.removerItem("Lápis");
+
+        // Exibindo os itens atualizados no carrinho
         carrinhoDeCompras.exibirItens();
-        System.out.println("O valor Total das suas compras é de R$: " + carrinhoDeCompras.calcularValorTotal());
-        System.out.println("Depois de remover quantidade");
-        carrinhoDeCompras.removerQuantidade("Nexgard Spectra", 3);
-        System.out.println("O valor Total das suas compras é de R$: " + carrinhoDeCompras.calcularValorTotal());
+
+        // Calculando e exibindo o valor total da compra
+        System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal());
+
     }
 }

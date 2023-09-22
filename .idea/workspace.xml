@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Resolvendo desafio ListaTarefa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" afterDir="false" />
+    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Resolvendo e incrementando o desafio CarrinhoDeCompras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695220246087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Resolvendo e incrementando o desafio CarrinhoDeCompras">
+      <created>1695310524329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695310524329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Resolvendo desafio ListaTarefa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo desafio ListaTarefa" />
+    <MESSAGE value="Resolvendo e incrementando o desafio CarrinhoDeCompras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo e incrementando o desafio CarrinhoDeCompras" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -141,14 +149,9 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java</url>
-          <line>48</line>
+          <line>57</line>
           <properties class="main.java.list.OperacoesBasicas.CarrinhoDeCompras" method="adicionarQuantidade">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

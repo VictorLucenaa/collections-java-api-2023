@@ -37,4 +37,12 @@ public class Item {
     public int getQuantidade() {
         return quantidade;
     }
+
+
+    @Override
+    public String toString() {
+        return "Item{" + "Nome='" + nome + '\'' +
+                ", preço=" + preco +
+                ", quantidade=" + quantidade + '}';
+    }
 }
