@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Adiciona os exercícios OrdenacaoPessoas e SomaNumeros">
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/Palavras.java" afterDir="false" />
+    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Adiciona os exercícios Operações básicas com Set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/Contato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +58,13 @@
       <recent name="main.java.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConjuntoPalavrasUnicas">
-    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
+  <component name="RunManager" selected="Application.AgendaContatos">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Pesquisa.AgendaContatos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="main.java.set.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoPalavrasUnicas" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.SomaNumeros" />
-        <item itemvalue="Application.CatalogoLivros" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695438390563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adiciona os exercícios Operações básicas com Set">
+      <created>1695652115149</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695652115149</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +213,8 @@
     <MESSAGE value="Correção exercício CarrinhoDeCompras" />
     <MESSAGE value="Adiciona o exercício SomaNumeros e CatalogoLivros" />
     <MESSAGE value="Adiciona os exercícios OrdenacaoPessoas e SomaNumeros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona os exercícios OrdenacaoPessoas e SomaNumeros" />
+    <MESSAGE value="Adiciona os exercícios Operações básicas com Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona os exercícios Operações básicas com Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
