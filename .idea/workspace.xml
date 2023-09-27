@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Adiciona os exercícios Operações Basicas com Map">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/Produto.java" afterDir="false" />
+    <list default="true" id="5c2d2af5-9425-43c5-ab78-c02d11089224" name="Changes" comment="Adiciona os exercícios Pesquisas com Map">
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Evento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/map/AgendaContatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <recent name="main.java.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EstoqueProdutos">
+  <component name="RunManager" selected="Application.AgendaEventos">
     <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.set.Pesquisa.AgendaContatos" />
       <module name="collections-java-api-2023" />
@@ -78,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.Ordenacao.AgendaEventos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.set.OperacoesBasicas.ConjuntoPalavrasUnicas" />
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.set.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaEventos" />
         <item itemvalue="Application.EstoqueProdutos" />
         <item itemvalue="Application.main.java.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.ConjuntoPalavrasUnicas" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695739516747</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adiciona os exercícios Pesquisas com Map">
+      <created>1695741772802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695741772804</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +249,8 @@
     <MESSAGE value="Adiciona os exercícios Pesquisa com Set" />
     <MESSAGE value="Adiciona os exercícios Ordenação com Set" />
     <MESSAGE value="Adiciona os exercícios Operações Basicas com Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona os exercícios Operações Basicas com Map" />
+    <MESSAGE value="Adiciona os exercícios Pesquisas com Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona os exercícios Pesquisas com Map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
